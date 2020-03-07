@@ -1,0 +1,17 @@
+{
+  "name": "Restaurant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alanperez/Restaurant.git",
+  "author": "Alan Perez <alanp9six@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "node-sass": "^4.13.1"
+  }
+}
