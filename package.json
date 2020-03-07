@@ -5,7 +5,9 @@
   "repository": "https://github.com/alanperez/Restaurant.git",
   "author": "Alan Perez <alanp9six@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "node-sass": "^4.13.1"
