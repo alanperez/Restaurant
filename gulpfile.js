@@ -39,9 +39,10 @@ gulp.task('browser-sync', function() {
   })
 })
 
-gulp.task('default', ['sass', 'browser-sync'], function() {
+gulp.task('default', ['sass','webpack' 'browser-sync'], function() {
   // Any file that is inside scss folder. Each change will run the sass task
   gulp.watch('./assets/scss/**/*', ['sass'])
+  gulp.watch('./assets/js/**/*', ['webpack'])
 })
 
 gulp.task('production', ['sass:minify'])

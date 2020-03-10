@@ -1,9 +1,11 @@
 var webpack = require('webpack')
+const path = require('path');
 
 module.exports = {
   // entry point - what wewbpack will load
   entry: {
-    firstComp: './assets/firstComp/index.js'
+		firstComp: './assets/firstComp/index.js',
+		main: './assets/js/main.js'
   },
 
   output: { filename: '[name].js',
